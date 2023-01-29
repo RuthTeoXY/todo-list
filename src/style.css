@@ -1,0 +1,129 @@
+.header {
+  background-color: rgb(38, 47, 133);
+  font-size: x-large;
+  color: azure;
+  text-align: center;
+  padding: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mainBody {
+  display: flex;
+  column-gap: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 40px;
+  background-color: rgb(214, 211, 208);
+  padding: 40px;
+  font-size: 20px;
+  color: rgb(37, 70, 102);
+  font-weight: bold;
+}
+
+img {
+  height: 20px;
+}
+
+.task {
+  display: flex;
+  background-color: rgb(214, 211, 208);
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.allTask {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 40px;
+  flex: 1;
+  color: rgb(37, 70, 102);
+}
+
+button {
+  background-color: rgb(164, 160, 157);
+  border-radius: 0%;
+  border-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(108, 107, 106);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: red;
+  font-style: oblique;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.taskDetails {
+  flex: 1;
+}
+
+.description {
+  font-size: 10 px;
+  font-style: italic;
+  color: rgb(68, 75, 83);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
